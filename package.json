@@ -1,0 +1,23 @@
+{
+  "name": "selenium-selectors-speed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmflaherty/selenium-selectors-speed.git"
+  },
+  "author": "Juan M. Flaherty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmflaherty/selenium-selectors-speed/issues"
+  },
+  "homepage": "https://github.com/jmflaherty/selenium-selectors-speed#readme",
+  "dependencies": {
+    "chimp": "^0.34.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  }
+}

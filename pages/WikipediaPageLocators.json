@@ -1,0 +1,8 @@
+{
+  "logo": {
+    "xpath": "//*[@id='p-logo']",
+    "css": "#p-logo",
+    "id": "p-logo",
+    "badXpath": "/html/body/div[5]/div[2]/div[1]"
+  }
+}
