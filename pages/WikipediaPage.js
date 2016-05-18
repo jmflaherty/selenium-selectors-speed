@@ -7,7 +7,7 @@ function WikipediaPage() {
     };
 
     var getRequiredLocator = function (element, selector) {
-        //take locators and find the corresponding locator for the required element/selector combination
+        return locators[element][selector];
     }
 
 }

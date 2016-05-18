@@ -3,6 +3,12 @@
     "xpath": "//*[@id='p-logo']",
     "css": "#p-logo",
     "id": "p-logo",
-    "badXpath": "/html/body/div[5]/div[2]/div[1]"
+    "badXpath": "/html/body/div[4]/div[2]/div[1]"
+  },
+  "searchBar": {
+    "xpath": "//input[@name='search']",
+    "css": "#searchInput",
+    "id": "searchInput",
+    "badXpath": "/html/body/div[4]/div[1]/div[3]/div[3]/form/div/input[1]"
   }
 }

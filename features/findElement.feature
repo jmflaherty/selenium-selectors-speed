@@ -11,5 +11,11 @@ Feature: Find Elements
 
     Examples:
       | element     | selector  |
-      | loginButton | xpath     |
-      | searchBar   | xpath     |
+      | logo        | xpath     |
+      | logo        | css       |
+#      | logo        | id        |
+      | logo        | badXpath  |
+#      | searchBar   | xpath     |
+#      | searchBar   | css       |
+#      | searchBar   | id        |
+#      | searchBar   | badXpath  |

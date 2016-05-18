@@ -14,10 +14,11 @@
   },
   "homepage": "https://github.com/jmflaherty/selenium-selectors-speed#readme",
   "dependencies": {
-    "chimp": "^0.34.1"
+    "chimp": "^0.34.1",
+    "timer-machine": "^1.0.1"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "mocha"
+    "test": "./node_modules/chimp/bin/chimp.js"
   }
 }

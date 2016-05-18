@@ -1,10 +1,12 @@
 var myHooks = function () {
+    global.memory = {};
     this.Before(function () {
-        driver.windowHandleMaximize([driver.windowHandle]);
+
+        //driver.windowHandleMaximize([driver.windowHandle]);
     });
 
     this.After(function () {
-        driver.deleteCookie();
+        //driver.deleteCookie();
     });
 };
 module.exports = myHooks;
